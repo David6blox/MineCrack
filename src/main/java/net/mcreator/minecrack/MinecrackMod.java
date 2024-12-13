@@ -17,7 +17,9 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.minecrack.init.MinecrackModTabs;
 import net.mcreator.minecrack.init.MinecrackModItems;
+import net.mcreator.minecrack.init.MinecrackModEntities;
 import net.mcreator.minecrack.init.MinecrackModBlocks;
 
 import java.util.function.Supplier;
@@ -43,6 +45,9 @@ public class MinecrackMod {
 		MinecrackModBlocks.REGISTRY.register(bus);
 
 		MinecrackModItems.REGISTRY.register(bus);
+		MinecrackModEntities.REGISTRY.register(bus);
+
+		MinecrackModTabs.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

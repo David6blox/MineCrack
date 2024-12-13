@@ -15,6 +15,118 @@
           "src/main/resources/assets/minecrack/models/block/cheese_block.json"
         ]
       }
+    },
+    {
+      "name": "MineCrack",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mine_crack",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Cheese",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minecrack/models/item/cheese.json",
+          "src/main/java/net/mcreator/minecrack/item/CheeseItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CheeseCreate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_create",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecrack/recipes/cheese_create.json"
+        ]
+      }
+    },
+    {
+      "name": "CheeseCook",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_cook",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecrack/recipes/cheese_cook.json"
+        ]
+      }
+    },
+    {
+      "name": "Cheesecut",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheesecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecrack/recipes/cheesecut.json"
+        ]
+      }
+    },
+    {
+      "name": "FlyingCheese",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flying_cheese",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minecrack/entity/FlyingCheeseEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "CheeseCannon",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_cannon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minecrack/item/CheeseCannonItem.java",
+          "src/main/resources/assets/minecrack/models/item/cheese_cannon.json"
+        ]
+      }
+    },
+    {
+      "name": "FoodToGun",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "food_to_gun",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecrack/recipes/food_to_gun.json"
+        ]
+      }
+    },
+    {
+      "name": "CheeseLord",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_lord",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minecrack/models/item/cheese_lord_spawn_egg.json",
+          "src/main/java/net/mcreator/minecrack/entity/CheeseLordEntity.java",
+          "src/main/java/net/mcreator/minecrack/client/renderer/CheeseLordRenderer.java",
+          "src/main/java/net/mcreator/minecrack/entity/CheeseLordEntityProjectile.java",
+          "src/main/resources/data/minecrack/forge/biome_modifier/cheese_lord_biome_modifier.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -23,6 +135,11 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "item.minecrack.cheese_cannon": "Cheese Cannon",
+      "entity.minecrack.cheese_lord": "Cheese Lord",
+      "item_group.minecrack.mine_crack": "Mine Crack",
+      "item.minecrack.cheese_lord_spawn_egg": "Cheese Lord Spawn Egg",
+      "item.minecrack.cheese": "Cheese",
       "block.minecrack.cheese_block": "Cheese Block"
     }
   },

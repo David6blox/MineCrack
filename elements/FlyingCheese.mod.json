@@ -1,0 +1,21 @@
+{
+  "_fv": 69,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:CheeseBlock"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "igniteFire": true,
+    "power": 100.0,
+    "damage": 255.0,
+    "knockback": 255,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5
+  }
+}

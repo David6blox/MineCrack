@@ -1,3 +1,8 @@
 {
+  "item.minecrack.cheese_cannon": "Cheese Cannon",
+  "entity.minecrack.cheese_lord": "Cheese Lord",
+  "item_group.minecrack.mine_crack": "Mine Crack",
+  "item.minecrack.cheese_lord_spawn_egg": "Cheese Lord Spawn Egg",
+  "item.minecrack.cheese": "Cheese",
   "block.minecrack.cheese_block": "Cheese Block"
 }

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "  a"
+  ],
+  "key": {
+    "a": {
+      "item": "minecrack:cheese"
+    }
+  },
+  "result": {
+    "item": "minecrack:cheese_cannon",
+    "count": 1
+  }
+}

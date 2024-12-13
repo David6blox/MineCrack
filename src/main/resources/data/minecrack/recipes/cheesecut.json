@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "minecrack:cheese_block"
+    }
+  },
+  "result": {
+    "item": "minecrack:cheese",
+    "count": 4
+  }
+}
