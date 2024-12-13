@@ -1,0 +1,49 @@
+{
+  "mod_elements": [
+    {
+      "name": "CheeseBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minecrack/models/item/cheese_block.json",
+          "src/main/resources/data/minecrack/loot_tables/blocks/cheese_block.json",
+          "src/main/resources/assets/minecrack/blockstates/cheese_block.json",
+          "src/main/java/net/mcreator/minecrack/block/CheeseBlockBlock.java",
+          "src/main/resources/assets/minecrack/models/block/cheese_block.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.minecrack.cheese_block": "Cheese Block"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "minecrack",
+    "modName": "MineCrack",
+    "version": "1.0.0",
+    "author": "conta, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.minecrack"
+  },
+  "mcreatorVersion": 202400342716
+}

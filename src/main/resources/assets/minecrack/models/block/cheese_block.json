@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "minecrack:block/block",
+    "particle": "minecrack:block/block"
+  },
+  "render_type": "solid"
+}
